@@ -83,12 +83,12 @@ body{
 <script>
     $(document).ready(function() {
 var img = document.querySelector("#bot");
-img.src = "botVoando.png";
+img.src = "img/botVoando.png";
     });
 
 setTimeout(() => {
   var img = document.querySelector("#bot");
-  img.src = "botEsquerdo.png";
+  img.src = "img/botEsquerdo.png";
 }, "2500");
 
 
@@ -102,11 +102,11 @@ function resp(){
 
  if(input.match('<input') && input.match('>')){
   var img = document.querySelector("#bot");
-  img.src = "botPensando.png";
+  img.src = "img/botPensando.png";
 
   setTimeout(() => {
   $(document).ready(function() {
-    img.src = "botVoando.png";
+    img.src = "img/botVoando.png";
 $(".botzin").addClass("acertou")
 });
 }, "2000");
@@ -115,9 +115,9 @@ setTimeout(() => {
 }, "3100");
 } else{
     var img = document.querySelector("#bot");
-  img.src = "botPensando.png";
+  img.src = "img/botPensando.png";
   setTimeout(() => {
-img.src = "botErro.png";
+img.src = "img/botErro.png";
 img.style.width = "18rem";
   }, "3000");
 }
@@ -150,7 +150,7 @@ img.style.width = "18rem";
     <div class="col-sm-6 p-3">
 
       <div class="botzin">
-        <img src="botEsquerdo.png" id="bot">
+        <img src="img/botEsquerdo.png" id="bot">
       </div>
       
     </div>
@@ -159,7 +159,7 @@ img.style.width = "18rem";
 </div>
 
 <nav class="navbar navbar-expand-sm fixed-bottom">
-    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="flor.png" alt="" width="150">
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="img/flor.png" alt="" width="150">
   </nav>
 </body>
 </html>
