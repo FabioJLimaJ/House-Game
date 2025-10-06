@@ -1,8 +1,9 @@
-🎮 House Gmae
+# 🎮 Jogo da Velha  
 Um jogo interativo desenvolvido com HTML, CSS e JavaScript para ensinar conceitos fundamentais de CSS de forma divertida e prática.
 
 📸 Preview
-![Jogo da Velha](jogo-da-velha/img/jg.png)  
+
+![House Game](House-Game/img/img.png)  
 
 🚀 Tecnologias
 - HTML5
