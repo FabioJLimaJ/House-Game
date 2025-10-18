@@ -9,10 +9,8 @@ Um jogo interativo desenvolvido com HTML, CSS e JavaScript para ensinar conceito
 
 🚀 Tecnologias
 - HTML5
-- Bootstrap
-- CSS
 - JavaScript
-- JQuery
+- PhaserJS
 
 ---
 
