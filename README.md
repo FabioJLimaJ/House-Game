@@ -5,7 +5,7 @@ Um jogo interativo desenvolvido com HTML, CSS e JavaScript para ensinar conceito
 
 📸 Preview
 
-![House Game](img/img.png) 
+![House Game](houses-game/old-game/img/img.png) 
 
 🚀 Tecnologias
 - HTML5
